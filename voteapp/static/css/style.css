@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.signupForm {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signupForm h4,
+.signupForm small {
+    text-align: center;
+    color: #333; /* Change color to dark gray */
+}
+
+.signupForm button {
+    width: 100%;
+    background-color: #4285f4; /* Change button background color to blue */
+    color: #fff; /* Change button text color to white */
+}
+
+.signupForm .error {
+    color: #ff0000; /* Change error text color to red */
+}
+
+.loginError {
+    text-align: center !important;
+    margin: auto;
+    color: #ff0000; /* Change login error text color to red */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.voteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 10px;
+}
+
+.result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-container {
+    width: inherit;
+}
+
+.result-container h4 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: #4caf50; /* Change heading color to green */
+}
+
+.result-container small {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333; /* Change small text color to dark gray */
+}
+
+.voteContainer button {
+    margin: 10px 0;
+    background-color: #e91e63; /* Change button background color to pink */
+    color: #fff; /* Change button text color to white */
+}
+
+.voteContainer label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333; /* Change label text color to dark gray */
+}
